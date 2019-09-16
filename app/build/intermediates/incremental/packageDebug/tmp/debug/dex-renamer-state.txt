@@ -1,0 +1,4 @@
+#Mon Sep 16 12:56:01 EAT 2019
+base.0=/home/oly/AndroidStudioProjects/DroidVcheck/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
