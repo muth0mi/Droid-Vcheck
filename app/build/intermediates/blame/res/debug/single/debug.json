@@ -52,12 +52,12 @@
         "source": "/home/oly/AndroidStudioProjects/DroidVcheck/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/oly/AndroidStudioProjects/DroidVcheck/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/home/oly/AndroidStudioProjects/DroidVcheck/app/build/intermediates/res/merged/debug/layout_activity_application2.xml.flat",
         "source": "/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/res/layout/activity_application2.xml"
+    },
+    {
+        "merged": "/home/oly/AndroidStudioProjects/DroidVcheck/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/oly/AndroidStudioProjects/DroidVcheck/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",

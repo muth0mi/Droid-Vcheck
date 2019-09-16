@@ -2,8 +2,11 @@ package io.muth0mi.droid_vcheck
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,13 +21,17 @@ class MainActivity : AppCompatActivity() {
 
         // Check version in coroutine and proceed to application
         btnProceed.setOnClickListener {
-            checkIfVersionIsUptodate()
+            checkIfVersionIsUpToDate()
             // Proceed to application
             startActivity(Intent(this, Application::class.java))
         }
     }
 
-    private fun checkIfVersionIsUptodate() {
-//        GlobalSc
+    private fun checkIfVersionIsUpToDate() {
+        GlobalScope.launch {
+
+            Thread.sleep(5000)
+            Log.e("Global scope couroutine", "I'm Done")
+        }
     }
 }

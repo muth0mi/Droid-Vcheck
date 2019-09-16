@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.2] /home/oly/.gradle/caches/transforms-2/files-2.1/3d328d22e07d946f70a841163470df76/core-1.0.2/AndroidManifest.xml:22:18-86
+13-->[androidx.core:core:1.1.0] /home/oly/.gradle/caches/transforms-2/files-2.1/eed6135891b32e9c04e8f2327f84f706/core-1.1.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:7:9-43
