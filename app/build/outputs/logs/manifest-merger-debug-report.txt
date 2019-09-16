@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/oly/.gradle/caches/transforms-2/files-2.1/aa1289509691eec0bc5432bbcec42831/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.1.0] /home/oly/.gradle/caches/transforms-2/files-2.1/dfcb6ee6eac302ce7da87de4a4dcc516/core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/oly/.gradle/caches/transforms-2/files-2.1/e93f15693cadfc182589c3152898c480/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -26,25 +26,31 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/oly/.gradle/caches/
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/oly/.gradle/caches/transforms-2/files-2.1/7467188ef2d9c229c52e3e13855a730f/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/oly/.gradle/caches/transforms-2/files-2.1/6505e7d0b32b219a8c6384aaddb64d4e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/oly/.gradle/caches/transforms-2/files-2.1/629975ad5bf49cceb6a5a572071a5cca/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:3:5-38
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:4:5-38
 		INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml
 		INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-22:12
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-22:12
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:5:5-20:19
+ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:8:5-25:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/oly/.gradle/caches/transforms-2/files-2.1/e93f15693cadfc182589c3152898c480/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/oly/.gradle/caches/transforms-2/files-2.1/e93f15693cadfc182589c3152898c480/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.1.0] /home/oly/.gradle/caches/transforms-2/files-2.1/eed6135891b32e9c04e8f2327f84f706/core-1.1.0/AndroidManifest.xml:24:5-89
@@ -54,35 +60,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/oly/.
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/oly/.gradle/caches/transforms-2/files-2.1/eed6135891b32e9c04e8f2327f84f706/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:11:9-41
+	tools:ignore
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:16:9-48
 	android:roundIcon
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:14:9-40
+	android:usesCleartextTraffic
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:15:9-44
 activity#io.muth0mi.droid_vcheck.Application
-ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:12:9-58
+ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:17:9-49
 	android:name
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:12:19-46
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:17:19-46
 activity#io.muth0mi.droid_vcheck.MainActivity
-ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:13:9-19:20
+ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:13:19-47
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:18:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:14:13-18:29
+ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:17:17-77
+ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml
