@@ -33,13 +33,13 @@ class MainActivity : AppCompatActivity() {
     private fun checkIfVersionIsUpToDate(version: String) {
         GlobalScope.launch {
             val (request, response, error) = Fuel.get(
-                "http://httpbin.org/get",
+                "https://raw.githubusercontent.com/muth0mi/Droid-Vcheck/master/index.json",
                 listOf("version" to version)
             ).response()
 
             if (response.isSuccessful) {
                 Log.e("Checking for update", response.body().asString("application/json"))
-            } else Log.e("Checking for update", "Failed "+error.toString())
+            } else Log.e("Checking for update", "Failed " + error.toString())
 
         }
     }
