@@ -3,13 +3,21 @@ package io.muth0mi.droid_vcheck
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Spinner
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.DialogFragment
 import com.github.kittinunf.fuel.Fuel
 import com.github.kittinunf.fuel.core.isSuccessful
+import com.google.gson.Gson
+import com.google.gson.JsonObject
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,6 +35,7 @@ class MainActivity : AppCompatActivity() {
             checkIfVersionIsUpToDate(spnVersion.selectedItem.toString())
             // Proceed to application
             startActivity(Intent(this, Application::class.java))
+            finish()
         }
     }
 
@@ -38,9 +47,34 @@ class MainActivity : AppCompatActivity() {
             ).response()
 
             if (response.isSuccessful) {
-                Log.e("Checking for update", response.body().asString("application/json"))
-            } else Log.e("Checking for update", "Failed " + error.toString())
+                val jsonString = response.body().asString("application/json")
 
+                // Parse JSON
+                val jsonObject = Gson().fromJson(jsonString, JsonObject::class.java)
+                val newestVersion = jsonObject.get("minimum_supported_version").toString().replace("\"", "")
+
+                Log.e("Checking for update", "Newest version -> $newestVersion")
+
+                // Compare versions
+                if (version.toFloat() < newestVersion.toFloat()) {
+                    startActivity(Intent(applicationContext, NotifySMSReceived::class.java))
+                } else Toast.makeText(applicationContext, "Application up to date", Toast.LENGTH_SHORT).show()
+
+            } else Log.e("Checking for update", "Failed $error")
         }
+    }
+
+    class EditNameDialog : DialogFragment() {
+        override fun onCreateView(
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
+        ): View? {
+            val view = inflater.inflate(R.layout.activity_main, container)
+            dialog!!.setTitle("Hello")
+
+            return view
+        }
+
     }
 }

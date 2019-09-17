@@ -10,6 +10,7 @@
         android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:allowBackup="true"
@@ -22,6 +23,8 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="io.muth0mi.droid_vcheck.NotifySMSReceived" />
+        <activity android:name="io.muth0mi.droid_vcheck.BaseActivity" />
         <activity android:name="io.muth0mi.droid_vcheck.Application" />
         <activity android:name="io.muth0mi.droid_vcheck.MainActivity" >
             <intent-filter>
