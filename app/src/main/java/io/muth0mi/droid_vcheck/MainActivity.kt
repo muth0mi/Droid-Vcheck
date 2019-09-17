@@ -54,8 +54,8 @@ class MainActivity : AppCompatActivity() {
                 // Compare versions
                 if (version.toFloat() < newestVersion.toFloat()) {
                     startActivity(Intent(applicationContext, DialogActivity::class.java))
-                } else Toast.makeText(applicationContext, "Application up to date", Toast.LENGTH_SHORT).show()
-
+                } else
+                    runOnUiThread { Toast.makeText(applicationContext, "Application up to date", Toast.LENGTH_SHORT).show() }
             } else Log.e("Checking for update", "Failed $error")
         }
     }
