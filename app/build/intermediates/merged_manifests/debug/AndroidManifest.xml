@@ -22,8 +22,9 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="io.muth0mi.droid_vcheck.NotifySMSReceived" />
-        <activity android:name="io.muth0mi.droid_vcheck.BaseActivity" />
+        <activity
+            android:name="io.muth0mi.droid_vcheck.DialogActivity"
+            android:theme="@style/AppTheme.DialogActivity" /> <!-- android:theme="@style/AppTheme.DialogActivity"></activity> -->
         <activity android:name="io.muth0mi.droid_vcheck.Application" />
         <activity android:name="io.muth0mi.droid_vcheck.MainActivity" >
             <intent-filter>

@@ -18,7 +18,7 @@
 12-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:7:22-75
 13
 14    <application
-14-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:9:5-28:19
+14-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:9:5-29:19
 15        android:allowBackup="true"
 15-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -37,29 +37,29 @@
 23-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:15:9-40
 24        android:usesCleartextTraffic="true" >
 24-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:16:9-44
-25        <activity android:name="io.muth0mi.droid_vcheck.NotifySMSReceived" />
-25-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:18:9-64
-25-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:18:19-52
-26        <activity android:name="io.muth0mi.droid_vcheck.BaseActivity" />
-26-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:19:9-50
-26-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:19:19-47
-27        <activity android:name="io.muth0mi.droid_vcheck.Application" />
-27-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:20:9-49
-27-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:20:19-46
-28        <activity android:name="io.muth0mi.droid_vcheck.MainActivity" >
-28-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:21:9-27:20
-28-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:21:19-47
-29            <intent-filter>
-29-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:22:13-26:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:23:17-69
-30-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:23:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:25:17-77
-32-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:25:27-74
-33            </intent-filter>
-34        </activity>
-35    </application>
-36
-37</manifest>
+25        <activity
+25-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:18:9-20:62
+26            android:name="io.muth0mi.droid_vcheck.DialogActivity"
+26-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:19:13-43
+27            android:theme="@style/AppTheme.DialogActivity" /> <!-- android:theme="@style/AppTheme.DialogActivity"></activity> -->
+27-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:20:13-59
+28        <activity android:name="io.muth0mi.droid_vcheck.Application" />
+28-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:21:9-49
+28-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:21:19-46
+29        <activity android:name="io.muth0mi.droid_vcheck.MainActivity" >
+29-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:22:9-28:20
+29-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:22:19-47
+30            <intent-filter>
+30-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:24:17-69
+31-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:26:17-77
+33-->/home/oly/AndroidStudioProjects/DroidVcheck/app/src/main/AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

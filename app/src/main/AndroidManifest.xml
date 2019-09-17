@@ -15,8 +15,9 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".NotifySMSReceived"></activity>
-        <activity android:name=".BaseActivity" />
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@style/AppTheme.DialogActivity" /> <!-- android:theme="@style/AppTheme.DialogActivity"></activity> -->
         <activity android:name=".Application" />
         <activity android:name=".MainActivity">
             <intent-filter>
